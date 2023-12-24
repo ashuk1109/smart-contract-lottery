@@ -1,6 +1,6 @@
 # Smart Contract Lottery
 
-This project demonstrates a smart contract based decentralized lottery created using Hardhat use case. It comes with the the Raffle solidity contract, a test for that contract, and a script that deploys that contract both on a local network as well as on a testnet.
+This project demonstrates a smart contract based decentralized lottery created using solidity and Hardhat. It comes with the the Raffle solidity contract, a test suite for the contract, and a script that deploys the contract either on a local hardhat network or on a testnet.
 
 ## How the lottery works ?
 1. Users enters the lottery by paying some amount greater than the minimum fee.
