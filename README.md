@@ -31,7 +31,7 @@ npx hardhat deploy
 ```shell
 npx hardhat test
 ``` 
--> Runs all unit teste for the contract
+-> Runs the test suite for the contract
 
 
 Note:
