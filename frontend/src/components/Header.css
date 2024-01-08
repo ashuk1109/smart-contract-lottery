@@ -1,0 +1,33 @@
+.flex-header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-left: 1rem;
+}
+
+.btn {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 10%;
+    border: 1px;
+}
+
+.raffle {
+    background-color: blueviolet;
+    color: white;
+}
+
+.metamask {
+    background-color: #cd6116;
+    color: white;
+    border-radius: 5%;
+}
