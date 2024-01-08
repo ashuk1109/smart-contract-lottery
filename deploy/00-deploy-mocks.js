@@ -9,7 +9,6 @@ const GAS_PRICE_LINK = 1e9 // calculated value based on gasPrice of the chain
 module.exports = async function ({ getNamedAccounts, deployments }) {
   const { deploy, log } = deployments
   const { deployer } = await getNamedAccounts()
-  const chainId = network.config.chainId
 
   if (developmentChains.includes(network.name)) {
     log("Local network detected, deploying Mocks...")

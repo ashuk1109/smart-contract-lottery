@@ -43,7 +43,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     gasLane,
     subscriptionId,
     callbackGasLimit,
-    "1",
+    interval,
   ]
   const raffle = await deploy("Raffle", {
     from: deployer,
